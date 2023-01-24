@@ -24,7 +24,7 @@ class ViewController: UIViewController {
     }
 
     private func playVideo(){
-        guard let path = Bundle.main.path(forResource: "sample-5s", ofType: "m4v") else {
+        guard let path = Bundle.main.path(forResource: "sample-5s", ofType: "mp4") else {
 
             debugPrint("video not found")
 
